@@ -41,6 +41,10 @@ about:
   repository: https://github.com/substrait-io/substrait-packaging
 
 extra:
+  mappings:
+    python:
+      pypi: substrait-extensions
+      import_name: substrait_extensions
   recipe-maintainers:
     - westonpace
     - epsilonprime
